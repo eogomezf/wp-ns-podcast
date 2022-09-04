@@ -1,0 +1,82 @@
+{
+    "key": "group_6314282ae47f8",
+    "title": "c-gallery",
+    "fields": [
+        {
+            "key": "field_6314283e8bbba",
+            "label": "c-gallery",
+            "name": "c-gallery",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_631428558bbbb",
+                    "label": "Picture",
+                    "name": "c-gallery_picture",
+                    "type": "photo_gallery",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "fields[c-gallery_picture": {
+                        "edit_modal": "Default",
+                        "images_limit": "",
+                        "remove_edit_button": "No",
+                        "remove_delete_button": "No"
+                    },
+                    "edit_modal": "Default"
+                },
+                {
+                    "key": "field_631428708bbbc",
+                    "label": "Title",
+                    "name": "c-gallery_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post",
+                "operator": "==",
+                "value": "65"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1662265482
+}

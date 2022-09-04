@@ -28,6 +28,36 @@ if(!function_exists('ns_theme_setup')){
 //     add_action('admin_menu', 'add_global_custom_options');
 // }
 
+
+add_action('admin_menu', 'cgp_opcion');
+
+//ADD GLOBAL OPTIONS
+if(!function_exists('cgp_opcion')){
+    function cgp_opcion(){
+        add_options_page('Global Custom Options', 'Global Custom Options', 'manage_options', 'functions','global_custom_options');
+    }
+    
+}
+
+
+function global_custom_options () 
+{ ?>
+  <div class="wrap">
+    <h2>Global Custom Options</h2>
+    <form method="post" action="options.php">
+	 	 <?php	wp_nonce_field('update-options') ?>
+	 	  <p><strong>General:</strong><br	/>
+	 	 	 <input	type="text" name="generalid" size="45" value="<?php	echo get_option('generalid'); ?>" />
+          </p>
+	 	  
+        <p><input type="submit" name="Submit"	value="Modificar" /></p>
+
+        <input type="hidden" name="action" value="update" />
+        <input type="hidden"	name="page_options" value="generalid" />
+    </form>
+  </div>
+<?php } 
+
 //ADD CUSTOM IMAGE SIZE
 if(!function_exists('ns_add_image_size')){
     function ns_add_image_size(){
@@ -102,3 +132,4 @@ if(!function_exists('ns_get_custom_post_type_labels')){
         return $labels;
     }
 }
+
