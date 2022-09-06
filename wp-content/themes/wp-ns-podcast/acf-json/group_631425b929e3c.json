@@ -1,11 +1,11 @@
 {
     "key": "group_631425b929e3c",
-    "title": "c-blog",
+    "title": "blog",
     "fields": [
         {
             "key": "field_631425c78a6cf",
-            "label": "c-blog",
-            "name": "c-blog",
+            "label": "blog",
+            "name": "blog",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_631425e08a6d0",
                     "label": "Autor",
-                    "name": "c-blog_autor",
+                    "name": "autor",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -39,7 +39,7 @@
                 {
                     "key": "field_631425fd8a6d1",
                     "label": "Date",
-                    "name": "c-blog_date",
+                    "name": "date",
                     "type": "date_picker",
                     "instructions": "",
                     "required": 0,
@@ -56,7 +56,7 @@
                 {
                     "key": "field_631426108a6d2",
                     "label": "Enterprise",
-                    "name": "c-blog_enterprise",
+                    "name": "enterprise",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -75,7 +75,7 @@
                 {
                     "key": "field_631426358a6d3",
                     "label": "Title",
-                    "name": "c-blog_title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -94,7 +94,7 @@
                 {
                     "key": "field_631426468a6d4",
                     "label": "Content",
-                    "name": "c-blog_content",
+                    "name": "content",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -113,7 +113,7 @@
                 {
                     "key": "field_6314265c8a6d5",
                     "label": "Button",
-                    "name": "c-blog_button",
+                    "name": "button",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -150,5 +150,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662264946
+    "modified": 1662452123
 }

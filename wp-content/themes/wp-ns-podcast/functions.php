@@ -2,7 +2,7 @@
 
 //REDIRECT TO FE
 if(!defined('REDIRECT_URL')){
-    define("REDIRECT_URL", '');
+    define("REDIRECT_URL", 'https://spanspodcast.techandmore7.com/');
 }
 
 if(!function_exists('ns_custom_redirect')){

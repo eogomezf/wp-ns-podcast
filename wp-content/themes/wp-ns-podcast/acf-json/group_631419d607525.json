@@ -1,11 +1,11 @@
 {
     "key": "group_631419d607525",
-    "title": "b-header",
+    "title": "header",
     "fields": [
         {
             "key": "field_63141a7978106",
-            "label": "b-header",
-            "name": "b-header",
+            "label": "header",
+            "name": "header",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_63141a8e78107",
                     "label": "Logo",
-                    "name": "b-header-logo",
+                    "name": "logo",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -44,7 +44,7 @@
                 {
                     "key": "field_63141aa278108",
                     "label": "Menu",
-                    "name": "b-header_menu",
+                    "name": "menu",
                     "type": "relationship",
                     "instructions": "",
                     "required": 0,
@@ -68,8 +68,27 @@
                 },
                 {
                     "key": "field_63141abb78109",
-                    "label": "buttons",
-                    "name": "b-header_buttons",
+                    "label": "buttonSubscribe",
+                    "name": "buttonsubscribe",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_63170af2b8103",
+                    "label": "buttonlogin",
+                    "name": "buttonlogin",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -91,9 +110,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "post",
                 "operator": "==",
-                "value": "20"
+                "value": "118"
             }
         ]
     ],
@@ -106,5 +125,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662262029
+    "modified": 1662455000
 }

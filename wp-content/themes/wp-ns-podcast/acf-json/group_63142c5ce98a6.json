@@ -1,11 +1,11 @@
 {
     "key": "group_63142c5ce98a6",
-    "title": "c-subscribe",
+    "title": "subscribe",
     "fields": [
         {
             "key": "field_63142c7a01ac6",
-            "label": "c-subscribe",
-            "name": "c-subscribe",
+            "label": "subscribe",
+            "name": "subscribe",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_63142c8501ac7",
                     "label": "Title",
-                    "name": "c-subscribe_title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -39,7 +39,7 @@
                 {
                     "key": "field_63142c9d01ac8",
                     "label": "Content",
-                    "name": "c-subscribe_content",
+                    "name": "content",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -57,9 +57,9 @@
                 },
                 {
                     "key": "field_63142cad01ac9",
-                    "label": "Emaii",
-                    "name": "c-subscribe_emaii",
-                    "type": "email",
+                    "label": "Email",
+                    "name": "email",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -69,14 +69,15 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": "Type your Email",
+                    "placeholder": "",
                     "prepend": "",
-                    "append": ""
+                    "append": "",
+                    "maxlength": ""
                 },
                 {
                     "key": "field_63142cd201aca",
                     "label": "Button",
-                    "name": "c-subscribe_button",
+                    "name": "button",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -113,5 +114,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662266594
+    "modified": 1662457667
 }

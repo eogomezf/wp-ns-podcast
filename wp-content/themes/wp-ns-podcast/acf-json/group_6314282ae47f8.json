@@ -1,11 +1,11 @@
 {
     "key": "group_6314282ae47f8",
-    "title": "c-gallery",
+    "title": "gallery",
     "fields": [
         {
             "key": "field_6314283e8bbba",
-            "label": "c-gallery",
-            "name": "c-gallery",
+            "label": "gallery",
+            "name": "gallery",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_631428558bbbb",
                     "label": "Picture",
-                    "name": "c-gallery_picture",
+                    "name": "picture",
                     "type": "photo_gallery",
                     "instructions": "",
                     "required": 0,
@@ -41,7 +41,7 @@
                 {
                     "key": "field_631428708bbbc",
                     "label": "Title",
-                    "name": "c-gallery_title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -78,5 +78,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662265482
+    "modified": 1662452636
 }

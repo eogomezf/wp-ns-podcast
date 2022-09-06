@@ -1,11 +1,11 @@
 {
     "key": "group_631420390e0b5",
-    "title": "c-hero",
+    "title": "hero",
     "fields": [
         {
             "key": "field_63142050472a9",
-            "label": "c-hero",
-            "name": "c-hero",
+            "label": "hero",
+            "name": "hero",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_6314205f472aa",
                     "label": "Trending",
-                    "name": "c-hero_trending",
+                    "name": "trending",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -39,7 +39,7 @@
                 {
                     "key": "field_631420cb472ab",
                     "label": "Title",
-                    "name": "c-hero_title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -58,7 +58,7 @@
                 {
                     "key": "field_631420e4472ac",
                     "label": "Content",
-                    "name": "c-hero_content",
+                    "name": "content",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -77,7 +77,7 @@
                 {
                     "key": "field_63142108472ad",
                     "label": "Listen",
-                    "name": "c-hero_listen",
+                    "name": "listen",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -96,7 +96,7 @@
                 {
                     "key": "field_6314211b472ae",
                     "label": "Media",
-                    "name": "c-hero_media",
+                    "name": "media",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -123,9 +123,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "post",
                 "operator": "==",
-                "value": "20"
+                "value": "116"
             }
         ]
     ],
@@ -138,5 +138,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662263734
+    "modified": 1662454911
 }

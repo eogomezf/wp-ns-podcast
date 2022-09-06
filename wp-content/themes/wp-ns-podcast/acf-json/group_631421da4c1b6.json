@@ -1,11 +1,11 @@
 {
     "key": "group_631421da4c1b6",
-    "title": "c-espisode",
+    "title": "espisode",
     "fields": [
         {
             "key": "field_631422f4c185a",
-            "label": "c-episode",
-            "name": "c-episode",
+            "label": "episode",
+            "name": "episode",
             "type": "group",
             "instructions": "",
             "required": 0,
@@ -20,7 +20,7 @@
                 {
                     "key": "field_6314248bc1860",
                     "label": "Picture",
-                    "name": "c-episode_picture",
+                    "name": "picture",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -44,7 +44,7 @@
                 {
                     "key": "field_631424dcc1861",
                     "label": "Title",
-                    "name": "c-episode_title",
+                    "name": "title",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -63,7 +63,7 @@
                 {
                     "key": "field_631424e7c1862",
                     "label": "Content",
-                    "name": "c-episode_content",
+                    "name": "content",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -82,7 +82,7 @@
                 {
                     "key": "field_631424f6c1863",
                     "label": "Button",
-                    "name": "c-episode_button",
+                    "name": "button",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -101,7 +101,7 @@
                 {
                     "key": "field_63142502c1864",
                     "label": "Season",
-                    "name": "c-episode_season",
+                    "name": "season",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -120,7 +120,7 @@
                 {
                     "key": "field_6314250fc1865",
                     "label": "Date",
-                    "name": "c-episode_date",
+                    "name": "date",
                     "type": "date_picker",
                     "instructions": "",
                     "required": 0,
@@ -137,7 +137,7 @@
                 {
                     "key": "field_63142550c1866",
                     "label": "Type",
-                    "name": "c-episode_type",
+                    "name": "type",
                     "type": "checkbox",
                     "instructions": "",
                     "required": 0,
@@ -180,5 +180,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662269144
+    "modified": 1662449524
 }
