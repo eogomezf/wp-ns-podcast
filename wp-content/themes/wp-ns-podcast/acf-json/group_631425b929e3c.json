@@ -135,9 +135,9 @@
     "location": [
         [
             {
-                "param": "post",
+                "param": "post_category",
                 "operator": "==",
-                "value": "17"
+                "value": "category:develop"
             }
         ]
     ],
@@ -150,5 +150,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1662452123
+    "modified": 1662771912
 }
